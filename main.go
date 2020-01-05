@@ -33,12 +33,10 @@ const DEFAULT_CERT_FILE_PATH = "./cert.pem"
 func getArgOps() (arguments.Arguments, error) {
 	optionRules := []arguments.Option{
 		{
-			LongKey:      "help",
-			ShortKey:     "h",
-			ValueType:    "bool",
-			Description:  "Show usage message and exit.",
-			DefaultValue: false,
-			Required:     false,
+			LongKey:     "help",
+			ShortKey:    "h",
+			ValueType:   "bool",
+			Description: "Show usage message and exit.",
 		},
 	}
 
