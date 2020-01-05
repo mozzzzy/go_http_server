@@ -1,4 +1,4 @@
-ARTIFUCT := ./http_server
+ARTIFUCT := ./go_http_server
 GO := `which go`
 GOSRC := \
 	./http_server_wrapper.go \
